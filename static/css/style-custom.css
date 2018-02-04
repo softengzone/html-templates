@@ -1,0 +1,65 @@
+@import url("//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+
+body {
+  padding: 20px;
+}
+
+#page_layout {
+  width:85%;
+  margin:auto;
+}
+
+.horizontal_layout_container {
+  margin-top:5px;
+  display:flex;
+  border:1px solid #dee2e6;
+  padding:2px;
+}
+
+.control_container {
+  display:inline-block;
+  color:#000;
+  width:100%;
+  border-right: 1 !important;
+  border-right: 1px solid #dee2e6 !important;
+  border-left: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.horizontal_spacer {
+  width: 5px;
+}
+
+.title_bar {
+  background-color:#045;
+  color:#fff;
+  padding:1px 5px;
+  margin-bottom:10px;
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+}
+
+label {
+  display:inline-block;
+  margin-left:10px;
+  margin-bottom:0.5em;
+  margin-right:15px;
+  vertical-align:middle;
+  width:30%;
+  height:1.5em;
+}
+
+.form-control-sm, .input-group-sm>.form-control,
+.input-group-sm>.input-group-append>.btn,
+.input-group-sm>.input-group-append>.input-group-text,
+.input-group-sm>.input-group-prepend>.btn,
+.input-group-sm>.input-group-prepend>.input-group-text {
+    position: relative;
+    display: inline-block;
+    margin-right:2px;
+    margin-left:0px;
+    width: 62%;
+    height: 2.0em;
+}
